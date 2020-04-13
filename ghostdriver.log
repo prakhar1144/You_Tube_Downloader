@@ -1,0 +1,76 @@
+[INFO  - 2020-04-13T11:16:52.591Z] GhostDriver - Main - running on port 56872
+[INFO  - 2020-04-13T11:16:57.197Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-04-13T11:16:57.197Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.customHeaders:  - {}
+[INFO  - 2020-04-13T11:16:57.198Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-04-13T11:16:57.198Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 498e6e00-7d78-11ea-9abb-cb6430ad5ab7
+[ERROR - 2020-04-13T11:17:00.999Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - msg: Unhandled promise rejection ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:01.000Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - stack:
+  (anonymous function) (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.598Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.599Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - stack:
+  a (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+  loadAndExecExtraExp (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+  (anonymous function) (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.599Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.600Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - stack:
+  a (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+  loadAndExecExtraExp (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+  (anonymous function) (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.600Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.600Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - stack:
+  a (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+  loadAndExecExtraExp (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+  (anonymous function) (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.601Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.601Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - stack:
+  a (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+  loadAndExecExtraExp (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+  (anonymous function) (https://en.savefrom.net/build/experiment/experimentLoader.9a766ea9.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.913Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'n.append(o,i)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:03.913Z] Session [498e6e00-7d78-11ea-9abb-cb6430ad5ab7] - page.onError - stack:
+  busy (https://sfstatic.net/build/js/savefrom.6e4c80f7.js:1)
+  preSubmitForm (https://sfstatic.net/build/js/savefrom.6e4c80f7.js:1)
+  checkForm (https://sfstatic.net/build/js/savefrom.6e4c80f7.js:1)
+  onsubmit (https://en.savefrom.net/11/:410)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:08.121Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:56872\",\"User-Agent\":\"selenium/3.141.0 (python windows)\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/property/href\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"href\",\"directory\":\"/property/\",\"path\":\"/property/href\",\"relative\":\"/property/href\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/property/href\",\"queryKey\":{},\"chunks\":[\"property\",\"href\"]},\"urlOriginal\":\"/session/498e6e00-7d78-11ea-9abb-cb6430ad5ab7/element/:wdc:1586776623670/property/href\"}","line":123,"sourceURL":"phantomjs://code/webelement_request_handler.js","stack":"_handle@phantomjs://code/webelement_request_handler.js:123:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/session_request_handler.js:120:42\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:08.144Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:56872\",\"User-Agent\":\"selenium/3.141.0 (python windows)\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/property/href\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"href\",\"directory\":\"/property/\",\"path\":\"/property/href\",\"relative\":\"/property/href\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/property/href\",\"queryKey\":{},\"chunks\":[\"property\",\"href\"]},\"urlOriginal\":\"/session/498e6e00-7d78-11ea-9abb-cb6430ad5ab7/element/:wdc:1586776623671/property/href\"}","line":123,"sourceURL":"phantomjs://code/webelement_request_handler.js","stack":"_handle@phantomjs://code/webelement_request_handler.js:123:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/session_request_handler.js:120:42\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-04-13T11:17:08.166Z] RouterReqHand - _handle.error - {"name":"Invalid Command Method","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:56872\",\"User-Agent\":\"selenium/3.141.0 (python windows)\"},\"httpVersion\":\"1.1\",\"method\":\"GET\",\"url\":\"/property/href\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"href\",\"directory\":\"/property/\",\"path\":\"/property/href\",\"relative\":\"/property/href\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/property/href\",\"queryKey\":{},\"chunks\":[\"property\",\"href\"]},\"urlOriginal\":\"/session/498e6e00-7d78-11ea-9abb-cb6430ad5ab7/element/:wdc:1586776623672/property/href\"}","line":123,"sourceURL":"phantomjs://code/webelement_request_handler.js","stack":"_handle@phantomjs://code/webelement_request_handler.js:123:66\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/session_request_handler.js:120:42\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
